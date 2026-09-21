@@ -49,7 +49,7 @@ export default function ComicDetailActions({
     try {
       if (navigator.share) {
         await navigator.share({
-          title: `Baca ${title} di Komik Verse`,
+          title: `Baca ${title} di Ruang Komik`,
           url: window.location.href,
         });
       } else {

@@ -228,7 +228,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
             {/* Footer hint */}
             <div className="p-3 bg-dark-bg/80 border-t border-dark-border text-center text-xs text-dark-muted flex items-center justify-between px-4">
               <span>Tekan <kbd className="px-1.5 py-0.5 bg-dark-card border border-dark-border rounded text-[10px]">Enter</kbd> untuk hasil lengkap</span>
-              <span><span className="text-brand font-semibold">KOMIK VERSE</span> Search</span>
+              <span><span className="text-brand font-semibold">RUANG KOMIK</span> Search</span>
             </div>
           </motion.div>
         </div>

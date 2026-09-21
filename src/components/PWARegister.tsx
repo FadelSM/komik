@@ -23,7 +23,7 @@ export default function PWARegister() {
         navigator.serviceWorker
           .register('/sw.js')
           .then((reg) => {
-            console.log('Komik Verse Service Worker registered:', reg.scope);
+            console.log('Ruang Komik Service Worker registered:', reg.scope);
           })
           .catch((err) => {
             console.error('Service Worker registration failed:', err);

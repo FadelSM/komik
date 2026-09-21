@@ -49,7 +49,7 @@ export default function Navbar() {
                 <div className="relative w-9 h-9 sm:w-11 sm:h-11 rounded-full overflow-hidden border-2 border-brand/80 shadow-glow-gold group-hover:scale-105 transition bg-black">
                   <Image
                     src="/images/logo.png"
-                    alt="Komik Verse"
+                    alt="Ruang Komik"
                     width={44}
                     height={44}
                     className="w-full h-full object-cover"
@@ -58,7 +58,7 @@ export default function Navbar() {
                 </div>
                 <div className="flex flex-col">
                   <span className="text-base sm:text-xl font-black tracking-tight text-brand group-hover:text-yellow-400 transition">
-                    KOMIK VERSE
+                    RUANG KOMIK
                   </span>
                   <span className="text-[8px] sm:text-[9px] uppercase font-bold tracking-widest text-dark-muted -mt-0.5">
                     Read More Worlds

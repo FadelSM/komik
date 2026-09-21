@@ -146,7 +146,7 @@ export default function AntiDevTools() {
 
         <p className="text-sm text-dark-muted leading-relaxed mb-6">
           Demi keamanan source code, privasi data, dan perlindungan konten di{' '}
-          <span className="text-brand-400 font-bold">Komik Verse</span>, fitur Inspect
+          <span className="text-brand-400 font-bold">Ruang Komik</span>, fitur Inspect
           Element & Developer Tools dinonaktifkan.
         </p>
 

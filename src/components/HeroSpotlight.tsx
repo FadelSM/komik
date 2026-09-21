@@ -177,7 +177,7 @@ export default function HeroSpotlight({ items }: HeroSpotlightProps) {
                 </Link>
 
                 <p className="text-xs sm:text-sm text-gray-300/90 line-clamp-2 leading-relaxed max-w-xl mx-auto md:mx-0">
-                  Komik terpopuler minggu ini di Komik Verse. Nikmati update chapter terbaru dalam bahasa Indonesia dengan kualitas gambar jernih.
+                  Komik terpopuler minggu ini di Ruang Komik. Nikmati update chapter terbaru dalam bahasa Indonesia dengan kualitas gambar jernih.
                 </p>
 
                 {/* CTA Action Buttons */}

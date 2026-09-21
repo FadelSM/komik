@@ -30,7 +30,7 @@ export default function Footer() {
               <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-brand/80 shadow-glow-gold bg-black">
                 <Image
                   src="/images/logo.png"
-                  alt="Komik Verse"
+                  alt="Ruang Komik"
                   width={48}
                   height={48}
                   className="w-full h-full object-cover"
@@ -38,7 +38,7 @@ export default function Footer() {
               </div>
               <div>
                 <span className="text-xl font-black bg-gradient-to-r from-amber-400 via-yellow-400 to-amber-500 bg-clip-text text-transparent">
-                  KOMIK VERSE
+                  RUANG KOMIK
                 </span>
                 <p className="text-xs text-dark-muted uppercase font-bold tracking-wider">
                   Read More Worlds
@@ -114,7 +114,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-dark-border/60 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-dark-muted">
           <p className="text-center sm:text-left">
-            &copy; {new Date().getFullYear()} <strong className="text-gray-300">Komik Verse</strong>. Seluruh konten komik merupakan hak cipta penerbit & kreator masing-masing.
+            &copy; {new Date().getFullYear()} <strong className="text-gray-300">Ruang Komik</strong>. Seluruh konten komik merupakan hak cipta penerbit & kreator masing-masing.
           </p>
           <button
             onClick={scrollToTop}
