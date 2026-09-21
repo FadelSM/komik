@@ -36,7 +36,7 @@ export default function DevInfoPage() {
 
       const handleInstalled = () => {
         setIsInstalled(true);
-        setInstallStatus('Aplikasi Komik Verse berhasil dipasang!');
+        setInstallStatus('Aplikasi Ruang Komik berhasil dipasang!');
       };
 
       window.addEventListener('pwa_prompt_ready', handleReady);
@@ -68,7 +68,7 @@ export default function DevInfoPage() {
         console.error('Install prompt error:', err);
       }
     } else if (isInstalled) {
-      setInstallStatus('Komik Verse sudah terpasang di perangkat Anda!');
+      setInstallStatus('Ruang Komik sudah terpasang di perangkat Anda!');
     } else {
       // Fallback instructions if browser already prompted or manual installation is required
       setInstallStatus(
@@ -111,8 +111,8 @@ export default function DevInfoPage() {
         <div className="relative mx-auto w-24 h-24 sm:w-28 sm:h-28 rounded-full p-1 bg-gradient-to-tr from-brand via-red-500 to-yellow-400 shadow-[0_0_35px_rgba(245,158,11,0.5)]">
           <div className="w-full h-full rounded-full overflow-hidden border-2 border-black bg-black relative">
             <Image
-              src="/images/kuzu.png"
-              alt="Kuzuroken"
+              src="/images/del.png"
+              alt="FadelSM"
               fill
               priority
               className="object-cover"
@@ -123,10 +123,10 @@ export default function DevInfoPage() {
         {/* Brand & Author Header */}
         <div className="space-y-1">
           <h1 className="text-3xl sm:text-4xl font-black text-white tracking-tight drop-shadow-md">
-            Komik<span className="text-brand">Verse</span>
+            Ruang<span className="text-brand">Komik</span>
           </h1>
           <p className="text-xs sm:text-sm font-black tracking-[0.25em] text-black uppercase drop-shadow-sm">
-            BY KUZUROKEN
+            BY FADELSM
           </p>
         </div>
 
@@ -141,7 +141,7 @@ export default function DevInfoPage() {
         <div className="grid grid-cols-3 gap-2.5 sm:gap-3 pt-1">
           {/* Website */}
           <a
-            href="https://kuzuroken.site"
+            href="https://fadelsm.biz.id"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center justify-center p-3 rounded-2xl bg-black border border-white/10 hover:border-white/30 hover:bg-zinc-900 transition-all duration-200 group shadow-2xl"
@@ -154,7 +154,7 @@ export default function DevInfoPage() {
 
           {/* TikTok */}
           <a
-            href="https://www.tiktok.com/@kuzuroken"
+            href="https://www.tiktok.com/@fadelsm"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center justify-center p-3 rounded-2xl bg-black border border-white/10 hover:border-pink-500/50 hover:bg-zinc-900 transition-all duration-200 group shadow-2xl"
@@ -173,7 +173,7 @@ export default function DevInfoPage() {
 
           {/* Instagram */}
           <a
-            href="https://www.instagram.com/kuzuroken.site"
+            href="https://www.instagram.com/fadelshafwanmaliki"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center justify-center p-3 rounded-2xl bg-black border border-white/10 hover:border-red-500/50 hover:bg-zinc-900 transition-all duration-200 group shadow-2xl"
@@ -189,7 +189,7 @@ export default function DevInfoPage() {
         <div className="space-y-3 pt-1">
           {/* Saweria Donation Card */}
           <a
-            href="https://saweria.co/kuzuroken"
+            href="https://saweria.co/fadelsm"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-between p-3.5 sm:p-4 rounded-2xl bg-black border border-white/10 hover:border-white/30 hover:bg-zinc-900 transition-all duration-200 group shadow-2xl"
