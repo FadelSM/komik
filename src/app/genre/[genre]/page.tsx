@@ -20,8 +20,8 @@ interface GenreDetailPageProps {
 export async function generateMetadata({ params }: GenreDetailPageProps): Promise<Metadata> {
   const genreTitle = params.genre.charAt(0).toUpperCase() + params.genre.slice(1);
   return {
-    title: `Komik Genre ${genreTitle} Bahasa Indonesia - Komik Verse`,
-    description: `Daftar komik manga, manhwa, dan manhua dengan genre ${genreTitle} terpopuler dan terupdate di Komik Verse.`,
+    title: `Komik Genre ${genreTitle} Bahasa Indonesia - Ruang Komik`,
+    description: `Daftar komik manga, manhwa, dan manhua dengan genre ${genreTitle} terpopuler dan terupdate di Ruang Komik.`,
   };
 }
 
