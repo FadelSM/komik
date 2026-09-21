@@ -3,7 +3,7 @@ const STATIC_ASSETS = [
   '/',
   '/manifest.json',
   '/images/logo.png',
-  '/images/kuzu.png',
+  '/images/del.png',
   '/images/bgdevmobile.png',
   '/images/bgdevdekstop.png',
 ];
