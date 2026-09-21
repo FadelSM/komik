@@ -97,11 +97,11 @@ export default function Navbar() {
                   href="/dev"
                   prefetch={true}
                   className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-full overflow-hidden border-2 border-brand shadow-[0_0_12px_rgba(245,158,11,0.4)] hover:border-yellow-400 hover:scale-110 active:scale-95 transition shrink-0 group ring-2 ring-brand/30 bg-black"
-                  title="Info Developer & Pasang Aplikasi (Kuzuroken)"
+                  title="Info Developer & Pasang Aplikasi (FadelSM)"
                 >
                   <Image
-                    src="/images/kuzu.png"
-                    alt="Kuzuroken"
+                    src="/images/del.png"
+                    alt="FadelSM"
                     width={40}
                     height={40}
                     className="w-full h-full object-cover group-hover:scale-110 transition duration-300"
