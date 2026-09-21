@@ -15,12 +15,12 @@ export async function generateMetadata({ params }: ChapterPageProps): Promise<Me
   const chapterData = await getChapterData(params.chapter);
   if (!chapterData) {
     return {
-      title: 'Chapter Tidak Ditemukan - Komik Verse',
+      title: 'Chapter Tidak Ditemukan - Ruang Komik',
     };
   }
   return {
-    title: `Baca ${chapterData.series} Chapter ${chapterData.chapter} Bahasa Indonesia - Komik Verse`,
-    description: `Baca komik ${chapterData.series} Chapter ${chapterData.chapter} online gratis di Komik Verse. Update gambar jernih dan loading cepat.`,
+    title: `Baca ${chapterData.series} Chapter ${chapterData.chapter} Bahasa Indonesia - Ruang Komik`,
+    description: `Baca komik ${chapterData.series} Chapter ${chapterData.chapter} online gratis di Ruang Komik. Update gambar jernih dan loading cepat.`,
   };
 }
 
