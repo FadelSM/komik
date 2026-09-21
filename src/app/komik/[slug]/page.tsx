@@ -19,12 +19,12 @@ export async function generateMetadata({ params }: ComicDetailPageProps): Promis
   const comic = await getComicDetail(params.slug);
   if (!comic) {
     return {
-      title: 'Komik Tidak Ditemukan - Komik Verse',
+      title: 'Komik Tidak Ditemukan - Ruang Komik',
     };
   }
   return {
-    title: `${comic.title} Bahasa Indonesia - Komik Verse`,
-    description: comic.synopsis ? comic.synopsis.slice(0, 160) : `Baca komik ${comic.title} online gratis di Komik Verse.`,
+    title: `${comic.title} Bahasa Indonesia - Ruang Komik`,
+    description: comic.synopsis ? comic.synopsis.slice(0, 160) : `Baca komik ${comic.title} online gratis di Ruang Komik.`,
   };
 }
 
