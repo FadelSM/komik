@@ -9,7 +9,7 @@ export default function Loading() {
         <div className="absolute inset-0 blur-lg bg-brand/30 -z-10 animate-pulse" />
       </div>
       <p className="text-sm font-bold text-gray-300 animate-pulse tracking-wide">
-        Memuat Komik Verse...
+        Memuat Ruang Komik...
       </p>
     </div>
   );

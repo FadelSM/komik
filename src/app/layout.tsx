@@ -21,16 +21,16 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://fadelsm.biz.id'),
-  title: 'Komik Verse - Baca Komik, Manhwa, Manga & Manhua Bahasa Indonesia',
+  title: 'Ruang Komik - Baca Komik, Manhwa, Manga & Manhua Bahasa Indonesia',
   description:
-    'Komik Verse adalah platform baca manga, manhwa, dan manhua gratis berbahasa Indonesia terlengkap dan terupdate. Nikmati pengalaman membaca komik berkualitas tinggi tanpa jeda.',
+    'Ruang Komik adalah platform baca manga, manhwa, dan manhua gratis berbahasa Indonesia terlengkap dan terupdate. Nikmati pengalaman membaca komik berkualitas tinggi tanpa jeda.',
   manifest: '/manifest.json',
   icons: {
     icon: '/images/logo.png',
     apple: '/images/logo.png',
   },
   openGraph: {
-    title: 'Komik Verse - Read More Worlds',
+    title: 'Ruang Komik - Read More Worlds',
     description: 'Platform baca komik, manga, manhwa, dan manhua bahasa Indonesia terbaik.',
     images: ['/images/logo.png'],
   },
