@@ -6,8 +6,8 @@ import { getGenreData } from '@/lib/api';
 export const revalidate = 3600; // 1 hour
 
 export const metadata: Metadata = {
-  title: 'Daftar Semua Genre Komik - Komik Verse',
-  description: 'Temukan komik berdasarkan genre favorit: Action, Isekai, Romance, Fantasy, Martial Arts, Comedy, Sci-Fi, dan lainnya di Komik Verse.',
+  title: 'Daftar Semua Genre Komik - Ruang Komik',
+  description: 'Temukan komik berdasarkan genre favorit: Action, Isekai, Romance, Fantasy, Martial Arts, Comedy, Sci-Fi, dan lainnya di Ruang Komik.',
 };
 
 export default async function AllGenresPage() {
