@@ -1,4 +1,4 @@
-// Types for Komik Verse
+// Types for Ruang Komik
 
 export interface ComicHomeRankingItem {
   rank: number;
