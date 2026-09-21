@@ -1,4 +1,4 @@
-const CACHE_NAME = 'komikverse-cache-v1';
+const CACHE_NAME = 'ruangkomik-cache-v1';
 const STATIC_ASSETS = [
   '/',
   '/manifest.json',
