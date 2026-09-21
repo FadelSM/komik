@@ -15,8 +15,8 @@ interface PustakaPageProps {
 }
 
 export const metadata: Metadata = {
-  title: 'Pustaka Komik - Manhwa, Manga, Manhua Bahasa Indonesia - Komik Verse',
-  description: 'Jelajahi ribuan koleksi manhwa, manga, dan manhua terupdate lengkap dengan terjemahan bahasa Indonesia di Komik Verse.',
+  title: 'Pustaka Komik - Manhwa, Manga, Manhua Bahasa Indonesia - Ruang Komik',
+  description: 'Jelajahi ribuan koleksi manhwa, manga, dan manhua terupdate lengkap dengan terjemahan bahasa Indonesia di Ruang Komik.',
 };
 
 export default async function PustakaPage({ searchParams }: PustakaPageProps) {
