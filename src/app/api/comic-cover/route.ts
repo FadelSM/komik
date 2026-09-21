@@ -28,7 +28,7 @@ export async function GET(req: NextRequest) {
     const detailRes = await fetch(`${API_BASE}/detail?slug=${encodeURIComponent(slug)}`, {
       next: { revalidate: 86400 },
       headers: {
-        'User-Agent': 'KomikVerse-App',
+        'User-Agent': 'RuangKomik-App',
       },
     });
 
@@ -47,7 +47,7 @@ export async function GET(req: NextRequest) {
         const chSlug = extractChapterSlug(targetUrl);
         const chRes = await fetch(`${API_BASE}/chapter?url=${encodeURIComponent(chSlug)}`, {
           next: { revalidate: 86400 },
-          headers: { 'User-Agent': 'KomikVerse-App' },
+          headers: { 'User-Agent': 'RuangKomik-App' },
         });
 
         if (chRes.ok) {
