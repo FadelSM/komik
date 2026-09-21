@@ -18,7 +18,7 @@ export async function getHomeData(): Promise<ComicHomeData | null> {
     const res = await fetch(`${API_BASE}/home`, {
       next: { revalidate: 300 }, // 5 minutes cache
       headers: {
-        'User-Agent': 'KomikVerse-App',
+        'User-Agent': 'RuangKomik-App',
       },
     });
     if (!res.ok) {
@@ -41,7 +41,7 @@ export async function getComicDetail(slug: string): Promise<ComicDetail | null> 
     const res = await fetch(`${API_BASE}/detail?slug=${encodeURIComponent(slug)}`, {
       next: { revalidate: 300 },
       headers: {
-        'User-Agent': 'KomikVerse-App',
+        'User-Agent': 'RuangKomik-App',
       },
     });
     if (!res.ok) {
@@ -61,7 +61,7 @@ export async function getComicDetail(slug: string): Promise<ComicDetail | null> 
           const chSlug = extractChapterSlug(targetUrl);
           const chRes = await fetch(`${API_BASE}/chapter?url=${encodeURIComponent(chSlug)}`, {
             next: { revalidate: 86400 },
-            headers: { 'User-Agent': 'KomikVerse-App' },
+            headers: { 'User-Agent': 'RuangKomik-App' },
           });
           if (chRes.ok) {
             const chData = await chRes.json();
@@ -91,7 +91,7 @@ export async function getChapterData(urlOrSlug: string): Promise<ChapterDetail |
     const res = await fetch(`${API_BASE}/chapter?url=${encodeURIComponent(cleanUrl)}`, {
       next: { revalidate: 600 },
       headers: {
-        'User-Agent': 'KomikVerse-App',
+        'User-Agent': 'RuangKomik-App',
       },
     });
     if (!res.ok) {
@@ -117,7 +117,7 @@ export async function getPustaka(tipe: string = 'manhwa', page: number = 1): Pro
     const res = await fetch(`${API_BASE}/pustaka?tipe=${encodeURIComponent(tipe)}&page=${page}`, {
       next: { revalidate: 300 },
       headers: {
-        'User-Agent': 'KomikVerse-App',
+        'User-Agent': 'RuangKomik-App',
       },
     });
     if (!res.ok) {
@@ -140,7 +140,7 @@ export async function getGenreData(genre: string = 'action', page: number = 1): 
     const res = await fetch(`${API_BASE}/genre?genre=${encodeURIComponent(genre)}&page=${page}`, {
       next: { revalidate: 300 },
       headers: {
-        'User-Agent': 'KomikVerse-App',
+        'User-Agent': 'RuangKomik-App',
       },
     });
     if (!res.ok) {
@@ -173,7 +173,7 @@ export async function searchComics(query: string, page: number = 1): Promise<Sea
     const res = await fetch(`${API_BASE}/search?q=${encodeURIComponent(query)}&page=${page}`, {
       cache: 'no-store',
       headers: {
-        'User-Agent': 'KomikVerse-App',
+        'User-Agent': 'RuangKomik-App',
       },
     });
     if (!res.ok) {

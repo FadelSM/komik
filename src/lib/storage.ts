@@ -2,9 +2,9 @@
 
 import { BookmarkItem, HistoryItem, ReaderSettings } from '@/types';
 
-const BOOKMARKS_KEY = 'komikverse_bookmarks';
-const HISTORY_KEY = 'komikverse_history';
-const SETTINGS_KEY = 'komikverse_reader_settings';
+const BOOKMARKS_KEY = 'ruangkomik_bookmarks';
+const HISTORY_KEY = 'ruangkomik_history';
+const SETTINGS_KEY = 'ruangkomik_reader_settings';
 
 export const DEFAULT_READER_SETTINGS: ReaderSettings = {
   mode: 'webtoon',

@@ -27,7 +27,7 @@ export function extractChapterSlug(urlOrSlug: string): string {
 }
 
 /**
- * Returns unified badge styling based on Komik Verse logo color scheme
+ * Returns unified badge styling based on Ruang Komik logo color scheme
  */
 export function getTypeBadgeStyle(type?: string): { bg: string; text: string; border: string; label: string } {
   return {
