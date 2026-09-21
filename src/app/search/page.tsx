@@ -15,8 +15,8 @@ interface SearchPageProps {
 export async function generateMetadata({ searchParams }: SearchPageProps): Promise<Metadata> {
   const query = searchParams.q || '';
   return {
-    title: query ? `Hasil Pencarian "${query}" - Komik Verse` : 'Pencarian Komik - Komik Verse',
-    description: `Cari dan baca komik favoritmu dengan kata kunci ${query} di Komik Verse.`,
+    title: query ? `Hasil Pencarian "${query}" - Ruang Komik` : 'Pencarian Komik - Ruang Komik',
+    description: `Cari dan baca komik favoritmu dengan kata kunci ${query} di Ruang Komik.`,
   };
 }
 
