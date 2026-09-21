@@ -20,7 +20,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://kuzuroken.site'),
+  metadataBase: new URL('https://fadelsm.biz.id'),
   title: 'Komik Verse - Baca Komik, Manhwa, Manga & Manhua Bahasa Indonesia',
   description:
     'Komik Verse adalah platform baca manga, manhwa, dan manhua gratis berbahasa Indonesia terlengkap dan terupdate. Nikmati pengalaman membaca komik berkualitas tinggi tanpa jeda.',
